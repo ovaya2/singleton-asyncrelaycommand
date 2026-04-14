@@ -1,0 +1,31 @@
+# Secrets
+.env
+*.env
+*.pw
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build-Ausgaben
+*bin/
+*obj/
+*out/
+
+# NuGet-Pakete
+*.nupkg
+packages/
+project.lock.json
+*.nuget.props
+*.nuget.targets
+
+# Publish-Profil
+PublishProfiles/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
