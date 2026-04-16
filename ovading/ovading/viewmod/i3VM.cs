@@ -3,30 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ovading.serv;
 using ovading.intf;
 
 namespace ovading.viewmod
 {
-  class i2VM
+  class i3VM
   {
-    private readonly I2 _service;
-    public i2VM(I2 service)
+    private readonly I3 _service;
+
+    public i3VM(I3 service)
     {
       _service = service;
-    }
 
-    public void Laden()
-    {
-      _service.i = 777;
-      _service.s = "I2 hier!";
+      _service.i = 1212;
+      _service.s = "ssss";
     }
 
     public void Drucken()
     {
-      Console.WriteLine("\nDrucken() in i2VM!");
+      Console.WriteLine("\nDrucken() in i3VM()");
       Console.WriteLine(_service.i);
-      Console.WriteLine(_service.s);
     }
   }
 }

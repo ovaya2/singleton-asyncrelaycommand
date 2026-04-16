@@ -7,15 +7,9 @@ using ovading.intf;
 
 namespace ovading.serv
 {
-  class i2 : I2
+  class i3 : I3
   {
     public int i { get; set; }
     public string s { get; set; }
-
-    public i2()
-    {
-      i = 0123;
-      Console.WriteLine(i);
-    }
   }
 }

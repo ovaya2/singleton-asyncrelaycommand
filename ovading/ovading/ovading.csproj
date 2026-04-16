@@ -55,10 +55,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="fun\fun1.cs" />
+    <Compile Include="fun\fun2.cs" />
     <Compile Include="intf\I2.cs" />
+    <Compile Include="intf\I3.cs" />
     <Compile Include="serv\i2.cs" />
+    <Compile Include="serv\i3.cs" />
     <Compile Include="serv\intf1_impl1.cs" />
     <Compile Include="viewmod\i2VM.cs" />
+    <Compile Include="viewmod\i3VM.cs" />
     <Compile Include="viewmod\MainVM.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
